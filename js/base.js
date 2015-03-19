@@ -212,7 +212,7 @@ objImmerse.setUpQuestion = function(intWord) {
 
 objImmerse.checkAnswer = function() {
 	var strShareHead, strShareChatter;
-	var strTwitterURL = "http://usat.ly/1wiCb6B";
+	var strTwitterURL = window.location.href;
 	var strPageURL = document.location.href;
 	if (!objImmerse.arrAudios[objImmerse.currentAudio].paused) {
 		objImmerse.arrAudios[objImmerse.currentAudio].pause();
